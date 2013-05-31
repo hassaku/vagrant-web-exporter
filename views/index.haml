@@ -1,0 +1,19 @@
+.container
+  %table.table.table-hover
+    %thead
+      %tr
+        %th= "VM name"
+        %th= "Status"
+        %th= "Action"
+        %th= "Instruction"
+
+    %tbody
+      - @vms.each do |vm|
+        %tr
+          %td= vm.name
+          %td= vm.status
+          %td{:align => "center"}
+            %a{:href => '/package/' + vm.name, :onclick => "return confirm('Exportを開始してよろしいですか？');"} export
+          %td{:align => "center"}
+            - if vm.ready
+              %a{:href => '/instruction/' + vm.name} read
