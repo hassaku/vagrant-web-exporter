@@ -2,14 +2,18 @@
 
 Export and import tool with web interface for vagrant box.
 
-{<img src="demo1.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master/]
+---
 
-{<img src="demo2.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master/]
+{<img src="img/demo1.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master]
+
+---
+
+{<img src="img/demo2.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master]
 
 == Usage
 
-$ bundle
-$ bundle exec rackup config.ru
+ $ bundle
+ $ bundle exec rackup config.ru
 
 == Another reference
 
