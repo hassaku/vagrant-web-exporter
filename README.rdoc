@@ -1,1 +1,24 @@
-under construction :(
+= Overview
+
+Export and import tool with web interface for vagrant box.
+
+{<img src="demo1.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master/]
+
+{<img src="demo2.png">}[https://raw.github.com/hassaku/vagrant-web-exporter/master/]
+
+== Usage
+
+$ bundle
+$ bundle exec rackup config.ru
+
+== Another reference
+
+https://speakerdeck.com/hassaku/tokyorubykaigi10
+
+== Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
